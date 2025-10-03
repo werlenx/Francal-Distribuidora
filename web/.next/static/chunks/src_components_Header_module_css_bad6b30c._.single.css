@@ -1,0 +1,130 @@
+/* [project]/src/components/Header.module.css [app-client] (css) */
+.Header-module__hBw1pG__header {
+  z-index: 50;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+}
+
+.Header-module__hBw1pG__headerContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .Header-module__hBw1pG__headerContent {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header-module__hBw1pG__headerContent {
+    padding: 0 2rem;
+  }
+}
+
+.Header-module__hBw1pG__headerInner {
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  display: flex;
+}
+
+.Header-module__hBw1pG__logo {
+  flex-shrink: 0;
+}
+
+.Header-module__hBw1pG__logoLink {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Header-module__hBw1pG__logoImage {
+  width: auto;
+  height: 3rem;
+}
+
+.Header-module__hBw1pG__navigation {
+  gap: 2rem;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .Header-module__hBw1pG__navigation {
+    display: flex;
+  }
+}
+
+.Header-module__hBw1pG__navLink {
+  color: var(--secondary-color);
+  padding: .5rem .75rem;
+  font-size: .875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Header-module__hBw1pG__navLink:hover {
+  color: var(--primary-dark);
+  box-shadow: inset 0 -2px 0 var(--primary-dark);
+}
+
+.Header-module__hBw1pG__mobileMenuButton {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: .5rem;
+  transition: color .3s;
+  display: block;
+}
+
+.Header-module__hBw1pG__mobileMenuButton:hover {
+  color: rgba(255, 255, 255, .8);
+}
+
+.Header-module__hBw1pG__mobileMenuButtonScrolled:hover {
+  color: var(--primary-color);
+}
+
+@media (min-width: 768px) {
+  .Header-module__hBw1pG__mobileMenuButton {
+    display: none;
+  }
+}
+
+.Header-module__hBw1pG__mobileMenu {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .Header-module__hBw1pG__mobileMenu {
+    display: none;
+  }
+}
+
+.Header-module__hBw1pG__mobileMenuContent {
+  border-top: 1px solid var(--border-color);
+  background-color: #fff;
+  padding: .5rem .75rem .75rem;
+}
+
+.Header-module__hBw1pG__mobileNavLink {
+  color: var(--secondary-color);
+  padding: .75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .2s;
+  display: block;
+}
+
+.Header-module__hBw1pG__mobileNavLink:hover {
+  color: var(--primary-color);
+}
+
+/*# sourceMappingURL=src_components_Header_module_css_bad6b30c._.single.css.map*/

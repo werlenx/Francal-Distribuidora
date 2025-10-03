@@ -1,0 +1,40 @@
+/* [project]/src/components/Footer.module.css [app-client] (css) */
+.Footer-module__S6Hkya__footer {
+  color: #fff;
+  background-color: #1f2937;
+}
+
+.Footer-module__S6Hkya__footerContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .Footer-module__S6Hkya__footerContent {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Footer-module__S6Hkya__footerContent {
+    padding: 2rem;
+  }
+}
+
+.Footer-module__S6Hkya__footerText {
+  text-align: center;
+}
+
+.Footer-module__S6Hkya__footerMainText {
+  margin-bottom: .5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.Footer-module__S6Hkya__footerCopyright {
+  color: #d1d5db;
+  font-size: .875rem;
+}
+
+/*# sourceMappingURL=src_components_Footer_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,15 @@
+.buttonStyled {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  background: var(--bg, #333);
+  color: var(--color, #fff);
+}
+
+.buttonStyled:hover {
+  background: var(--hover-bg, #555);
+  color: var(--hover-color, #eee);
+}

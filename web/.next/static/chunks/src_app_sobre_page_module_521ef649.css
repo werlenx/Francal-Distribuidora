@@ -1,0 +1,315 @@
+/* [project]/src/app/sobre/page.module.css [app-client] (css) */
+.page-module__6ANMeG__hero {
+  background: linear-gradient(to right, var(--primary-color), #1d4ed8);
+  color: #fff;
+  padding: 5rem 0;
+}
+
+.page-module__6ANMeG__heroContent {
+  text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .page-module__6ANMeG__heroContent {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-module__6ANMeG__heroContent {
+    padding: 0 2rem;
+  }
+}
+
+.page-module__6ANMeG__heroTitle {
+  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .page-module__6ANMeG__heroTitle {
+    font-size: 3rem;
+  }
+}
+
+.page-module__6ANMeG__heroSubtitle {
+  max-width: 48rem;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .page-module__6ANMeG__heroSubtitle {
+    font-size: 1.5rem;
+  }
+}
+
+.page-module__6ANMeG__historia {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.page-module__6ANMeG__historiaContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .page-module__6ANMeG__historiaContent {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-module__6ANMeG__historiaContent {
+    padding: 0 2rem;
+  }
+}
+
+.page-module__6ANMeG__historiaGrid {
+  align-items: center;
+  gap: 3rem;
+  display: grid;
+}
+
+@media (min-width: 1024px) {
+  .page-module__6ANMeG__historiaGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.page-module__6ANMeG__historiaText h2 {
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.page-module__6ANMeG__historiaText p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+}
+
+.page-module__6ANMeG__historiaText p:last-child {
+  margin-bottom: 0;
+}
+
+.page-module__6ANMeG__historiaStats {
+  background-color: var(--background-gray);
+  text-align: center;
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+.page-module__6ANMeG__historiaStatsNumber {
+  color: var(--primary-color);
+  margin-bottom: .5rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.page-module__6ANMeG__historiaStatsText {
+  color: var(--text-light);
+  font-size: 1.125rem;
+}
+
+.page-module__6ANMeG__missao {
+  background-color: var(--background-gray);
+  padding: 4rem 0;
+}
+
+.page-module__6ANMeG__missaoContent {
+  text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .page-module__6ANMeG__missaoContent {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-module__6ANMeG__missaoContent {
+    padding: 0 2rem;
+  }
+}
+
+.page-module__6ANMeG__missaoTitle {
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.page-module__6ANMeG__missaoQuote {
+  color: var(--secondary-color);
+  max-width: 56rem;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .page-module__6ANMeG__missaoQuote {
+    font-size: 1.5rem;
+  }
+}
+
+.page-module__6ANMeG__valores {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.page-module__6ANMeG__valoresContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .page-module__6ANMeG__valoresContent {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-module__6ANMeG__valoresContent {
+    padding: 0 2rem;
+  }
+}
+
+.page-module__6ANMeG__valoresTitle {
+  text-align: center;
+  color: var(--text-dark);
+  margin-bottom: 3rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.page-module__6ANMeG__valoresGrid {
+  gap: 2rem;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .page-module__6ANMeG__valoresGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.page-module__6ANMeG__valorCard {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.page-module__6ANMeG__valorIcon {
+  background-color: #dbeafe;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1rem;
+  display: flex;
+}
+
+.page-module__6ANMeG__valorIcon svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--primary-color);
+}
+
+.page-module__6ANMeG__valorTitle {
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.page-module__6ANMeG__valorDescription {
+  color: var(--text-light);
+}
+
+.page-module__6ANMeG__diferenciais {
+  background-color: var(--background-gray);
+  padding: 4rem 0;
+}
+
+.page-module__6ANMeG__diferenciaisContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .page-module__6ANMeG__diferenciaisContent {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-module__6ANMeG__diferenciaisContent {
+    padding: 0 2rem;
+  }
+}
+
+.page-module__6ANMeG__diferenciaisTitle {
+  text-align: center;
+  color: var(--text-dark);
+  margin-bottom: 3rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.page-module__6ANMeG__diferenciaisGrid {
+  gap: 2rem;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .page-module__6ANMeG__diferenciaisGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-module__6ANMeG__diferenciaisGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.page-module__6ANMeG__diferencialCard {
+  text-align: center;
+  box-shadow: var(--shadow);
+  background-color: #fff;
+  border-radius: .5rem;
+  padding: 1.5rem;
+}
+
+.page-module__6ANMeG__diferencialNumber {
+  color: var(--primary-color);
+  margin-bottom: .5rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.page-module__6ANMeG__diferencialTitle {
+  margin-bottom: .5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.page-module__6ANMeG__diferencialDescription {
+  color: var(--text-light);
+  font-size: .875rem;
+}
+
+/*# sourceMappingURL=src_app_sobre_page_module_521ef649.css.map*/
