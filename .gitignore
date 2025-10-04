@@ -1,0 +1,71 @@
+################################
+## 1. DEPENDÊNCIAS (ESSENCIAL)
+################################
+
+# Sempre ignorar pastas de módulos em qualquer nível
+node_modules/
+
+# Logs de depuração
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+################################
+## 2. CONFIGURAÇÕES DE BUILD & AMBIENTE
+################################
+
+# Variáveis de ambiente secretas: NUNCA envie chaves ou senhas!
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Arquivos de configurações locais do VS Code e outros editores
+.vscode/
+.idea/
+
+################################
+## 3. BACK-END (Node.js/API)
+################################
+
+# Ignorar o cache de Babel
+.babelcache
+
+# Arquivos de Build/Distribuição do Back-end
+# Se a sua API compila para uma pasta 'dist' ou 'build'
+/api/dist/
+/api/build/
+
+# Logs específicos do servidor
+*.log
+
+################################
+## 4. FRONT-END (Next.js/web)
+################################
+
+# Diretórios de Build do Next.js
+.next/
+out/
+
+# Cache de próxima geração (Next.js cache)
+.next-cache/
+.next/cache/
+
+# Diretório de build específico para Vercel
+.vercel/
+
+# Arquivos de build estáticos temporários
+/web/dist/
+
+# Relatórios de cobertura de testes (Jest, Vitest, etc.)
+/web/coverage/
+/api/coverage/
+
+################################
+## 5. OUTROS SISTEMAS
+################################
+
+# Arquivos temporários do sistema operacional
+.DS_Store # macOS
+Thumbs.db # Windows
