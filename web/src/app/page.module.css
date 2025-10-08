@@ -135,6 +135,40 @@
 }
 
 /* Destaques Section */
+.services{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2563EB;
+}
+.ico{
+  width: 150px;
+}
+.servicesTitle {
+    font-size: 24px; 
+    padding: 1rem 0;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex; 
+    gap: 5px;
+    align-items: center;
+}
+
+.servicesTitle span {
+    font-size: inherit;
+ 
+    color: #191A40;
+    /* font-weight: 900; - Opcional: para que seja mais grosso/destacado */
+}
+
+.servicesContent p {
+    font-size: 14px; /* Exemplo: menor que o 24px do título */
+    color: #ffffff;
+    /* Outros ajustes: */
+    font-weight: 500;
+    margin-top: -10px; /* Opcional: se quiser aproximar do título */
+}
 .destaques {
   padding: 4rem 0;
   background-color: var(--background-gray);
@@ -216,6 +250,135 @@
 .destaqueDescription {
   color: var(--text-light);
 }
+
+/*partnes section*/
+
+.partnersSection {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 0;
+  text-align: center;
+  overflow: hidden;
+  justify-content: center;
+  p{
+    color: var(--text-dark);
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 1.25rem;
+    max-width: 600px;
+  }
+}
+
+.partnersTitle {
+  color: var(--text-dark);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.partnersWrapper {
+  overflow: hidden;
+  width: 100%;
+}
+/*CTA Whatsapp*/
+.ctaWhatsappSection{
+  background-color: #25D366;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem; 
+  p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* text-align: center; */
+    span{
+      color: #095F13;
+    }
+  }
+  .textWhatsApp{
+    text-align: right;
+  }
+  img{
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 90px;
+    height: auto;
+  }
+}
+
+/*info section*/
+
+.infoSection {
+  /* Use sua imagem de fundo e overlay azul, como na imagem */
+  background-image: linear-gradient(rgba(0, 0, 139, 0.8), rgba(0, 0, 139, 0.8)), url('/banner_francal.png'); 
+  background-size: cover;
+  background-position: center;
+  color: white; /* Cor do texto padrão */
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+}
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* garante altura uniforme */
+  gap: 20px;
+  position: relative;
+}
+
+.infoCard {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.1); /* isola visualmente */
+  z-index: 1; /* força empilhamento correto */
+  overflow: hidden; /* evita que conteúdo ultrapasse os limites */
+}
+
+.infoCard:last-child {
+  border-right: none;
+}
+
+
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.cardText {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.highlight {
+  color: #FFA500;
+  font-weight: bold;
+}
+
+
+.iconPlaceholder, .mapPlaceholder {
+  font-size: 60px; 
+  margin: 20px 0;
+}
+
+
+
+
 /*mapa section*/
 .mapContainerSection {
   background-color: #EFEFEF;
@@ -229,7 +392,7 @@
 .mapTitle {
   font-size: 1.5rem; /* Tamanho do título */
   font-weight: bold; /* Peso da fonte */
-  margin-bottom: 0.5rem; /* Espaçamento inferior */
+  margin-bottom: 1.5rem; /* Espaçamento inferior */
   color: var(--text-dark); /* Cor do texto */
 }
 
