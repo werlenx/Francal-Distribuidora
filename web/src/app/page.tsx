@@ -139,7 +139,7 @@ export default function Home() {
                   </h3>
                   <div className={styles.iconPlaceholder}>
                       {/* Aqui ficaria seu ícone de Fale Conosco (em SVG) */}
-                      <span className={styles.icon}>📞</span> 
+                      <img src="customer-service.svg" alt="" />
                   </div>
                   <h3 >FALE COM A GENTE</h3>
                   <ButtonStyled href="/sobre" color="" backgroundColor="#e74c3c">Fale conosco</ButtonStyled>
@@ -152,7 +152,7 @@ export default function Home() {
                   </h3>
                   <div className={styles.mapPlaceholder}>
                       {/* Aqui ficaria o mapa das regiões (em SVG) */}
-                      <span className={styles.map}>🗺️</span> 
+                      <img src="Norte_nordeste 1.svg" alt="" />
                   </div>
                   <ButtonStyled href="/sobre" color="" backgroundColor="#e74c3c">Abrir</ButtonStyled>
               </div>
@@ -170,7 +170,7 @@ export default function Home() {
       </section> */}
 
       {/* CTA Section */}
-      {/* <section className={styles.cta}>
+      <section className={styles.cta}>
         <div className={styles.ctaContent}>
           <h2 className={styles.ctaTitle}>
             Pronto para trabalhar conosco?
@@ -185,8 +185,8 @@ export default function Home() {
             Fale Conosco
           </Link>
         </div>
-      </section> */}
-      
+      </section>
+
     </div>
   );
 }

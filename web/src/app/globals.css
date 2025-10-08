@@ -30,6 +30,21 @@ body {
   background-color: var(--background);
 }
 
+/* Espaçamento vertical consistente entre seções */
+main > section {
+  margin-top: 3rem;
+}
+
+main > section:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 640px) {
+  main > section {
+    margin-top: 2rem;
+  }
+}
+
 /* Utilitários globais */
 .container {
   max-width: 1280px;
